@@ -22,18 +22,19 @@ server folder
 go to server directory
 type "npm install or npm i"
 create .env file on server directory. Add
-MONGO_DB_URI = //YOUR DATABASE
-JWT_SECRET = //WRITE RANDOM LONG WORD
+
+  MONGO_DB_URI = //YOUR DATABASE
+  JWT_SECRET = //WRITE RANDOM LONG WORD
 
 Go to controller/post.js file
-cloudinary.config({
-  cloud_name: "YOUR_CLOUDINARY_NAME",
-  api_key: CLOUDINARY_API,
-  api_secret: "CLOUDINARY_SECRET",
-});
+  cloudinary.config({
+    cloud_name: "YOUR_CLOUDINARY_NAME",
+    api_key: CLOUDINARY_API,
+    api_secret: "CLOUDINARY_SECRET",
+  });
 
 After this, run inside server directory
-"nodemon server.js" 
+  "nodemon server.js" 
 Server side runs
 
 on client folder
