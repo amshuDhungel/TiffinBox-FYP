@@ -27,11 +27,12 @@ create .env file on server directory. Add
   JWT_SECRET = //WRITE RANDOM LONG WORD
 
 Go to controller/post.js file
-  cloudinary.config({
-    cloud_name: "YOUR_CLOUDINARY_NAME",
-    api_key: CLOUDINARY_API,
-    api_secret: "CLOUDINARY_SECRET",
-  });
+
+1  cloudinary.config({
+2    cloud_name: "YOUR_CLOUDINARY_NAME",
+3    api_key: CLOUDINARY_API,
+4    api_secret: "CLOUDINARY_SECRET",
+5  });
 
 After this, run inside server directory
   "nodemon server.js" 
