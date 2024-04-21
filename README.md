@@ -28,14 +28,16 @@ create .env file on server directory. Add
 
 Go to controller/post.js file
 
-1  cloudinary.config({
-2    cloud_name: "YOUR_CLOUDINARY_NAME",
-3    api_key: CLOUDINARY_API,
-4    api_secret: "CLOUDINARY_SECRET",
-5  });
+  cloudinary.config({
+    cloud_name: "YOUR_CLOUDINARY_NAME",
+    api_key: CLOUDINARY_API,
+    api_secret: "CLOUDINARY_SECRET",
+  });
 
 After this, run inside server directory
+
   "nodemon server.js" 
+  
 Server side runs
 
 on client folder
