@@ -23,7 +23,7 @@ go to server directory
 type "npm install or npm i"
 create .env file on server directory. Add
 
-  MONGO_DB_URI = //YOUR DATABASE
+  MONGO_DB_URI = //YOUR DATABASE,
   JWT_SECRET = //WRITE RANDOM LONG WORD
 
 Go to controller/post.js file
