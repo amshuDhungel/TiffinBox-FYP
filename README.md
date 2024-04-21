@@ -1,20 +1,20 @@
 Project Features Include
 -------------------------
-Registration and Login
-Authentication and Authorization
-Validation
-Update, Create, Delete Post
-Like and unlike the post
-View who like the post.
-Profile visit
-Profile Management
-Food Order from user directly with another user.
-Direct payment to the user.
-Delete Profile
-Update Password
-Update Profile
-Bookmark user
-LogOut
+1. Registration and Login
+2. Authentication and Authorization
+3. Validation
+4. Update, Create, Delete Post
+5. Like and unlike the post
+6. View who like the post.
+7. Profile visit
+8. Profile Management
+9. Food Order from user directly with another user.
+10. Direct payment to the user.
+11. Delete Profile
+12. Update Password
+13. Update Profile
+14. Bookmark user
+15. LogOut
 
 How to RUN THE CODE
 server folder
